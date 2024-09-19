@@ -19,7 +19,7 @@
         <h2 class="text-xl font-bold mb-4">Submit a New Complaint</h2>
         <form action="{{ route('complaint.submit') }}" method="POST">
             @csrf
-            <textarea name="complaint" class="w-full p-2 border border-gray-300 rounded mb-4" required></textarea>
+            <textarea rows="10" name="complaint" class="w-full p-2 border border-gray-300 rounded mb-4" required></textarea>
             <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Submit Complaint</button>
         </form>
 
