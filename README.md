@@ -1,5 +1,7 @@
 To run the project locally:
 
+** clone the repo first: run "git clone https://github.com/sakibovi123/essential_infotect_test.git"
+
 1. create a database from phpmyadmin
 2. edit .env and connect database
 3. run "composer install" && "npm install"
